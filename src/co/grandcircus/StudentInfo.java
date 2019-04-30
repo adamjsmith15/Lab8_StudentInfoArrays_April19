@@ -44,7 +44,7 @@ public class StudentInfo {
 				userNum = scnr.nextInt();
 			} catch(InputMismatchException e) {
 				System.out.println(" ");
-				System.out.println("That is not a number. Please try again. (enter a number 1-20): ");
+				System.out.println("That is not a number. Please try again. (enter a number 1-6): ");
 				//garbage line
 				scnr.nextLine();
 				continue;
@@ -56,13 +56,13 @@ public class StudentInfo {
 
 			} catch (ArrayIndexOutOfBoundsException e) {
 				System.out.println(" ");
-				System.out.println("That student does not exist. Please try again. (enter a number 1-20): ");
+				System.out.println("That student does not exist. Please try again. (enter a number 1-6): ");
 			} catch (IllegalArgumentException e) {
 				System.out.println(" ");
-				System.out.println("That is not a number. Please try again. (enter a number 1-20): ");
+				System.out.println("That is not a number. Please try again. (enter a number 1-6): ");
 			} catch (Exception e) {
 				System.out.println(" ");
-				System.out.println("An unknown error occurred. Please try again. (enter a number 1-20): ");
+				System.out.println("An unknown error occurred. Please try again. (enter a number 1-6): ");
 			}
 		}
 		System.out.println(" ");
