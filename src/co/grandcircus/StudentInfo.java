@@ -1,4 +1,5 @@
 package co.grandcircus;
+// Adam Smith April 2019
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
